@@ -1,0 +1,193 @@
+{box-sizing: border-box;}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: arial;
+}
+
+.topnav a:hover {
+  background-color: #eaeaea;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #104da3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+  color: black;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: bold black;
+  width: 170px; 
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: 10px;
+  background: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Pacifico;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("walkers.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: brightness(150%);
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 17pt;
+  font-family: Arial;
+  text-shadow: -2px 0 navy, 0 2px navy, 2px 0 navy, 0 -2px navy;
+}
+
+.hero-image1 {
+  background: url("team.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: brightness(150%);
+  filter: blur(2px);
+}
+
+.hero-text1 {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.7); 
+  color: white;
+  font-weight: lighter;
+  border: 5px solid #f1f1f1;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: left;
+  font-size: 15pt;
+  font-family: Arial;
+}
+
+.hero-image1 {
+  background: url("team.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: brightness(150%);
+  filter: blur(2px);
+}
+
+.hero-text2 {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid white;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 2;
+  width: 60%;
+  padding: 10px;
+  text-align: left;
+  font-size: 10pt;
+  font-family: Arial;
+  overflow: auto;
+}
+
+
+.coach
+{
+  width: 70%;
+  float: left;
+  margin-left: 4%;
+}
+.photo
+{
+  float:left;
+  overflow: auto;
+  width: 23%;
+}
+
+table, th, td {
+    border: 1px solid black;
+
+}
+
+th, td {
+    padding: 15px;
+    font-size: 20px;
+    b
+}
+
+td {
+    text-align: center;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    background-color: #686868;
+    color: white;
+}
+
+table{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#team
+{
+  font-size: 40px;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+   font-family: Arial;
+}
+
+.gameinfo{
+  background-color:white;
+}
+
